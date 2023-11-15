@@ -15,9 +15,9 @@
 <body>
 
     <!-- HEADER BSS -->
-    <header>
+    <header class="encabezado">
         <!-- MENU NAVBAR -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="../img/Barbería CodeR.png" alt="Logo Barberia">
@@ -32,7 +32,7 @@
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="registrarse.html">Registrarse</a>
@@ -48,32 +48,47 @@
             </div>
         </nav>
 
-        <h1 class="text-center">REGISTRARSE</h1>
+        <div class="container-fluid parrafo">
 
-        <h2 class="blanco container-fluid">Bienvenido a Coder Barbería, donde la elegancia se encuentra con la tecnología! Estamos encantados de que
-            estés aquí y queremos que tu experiencia sea aún más especial.
+            <h1 class="text-center">REGISTRARSE</h1>
 
-            Al registrarte en nuestra página web, te abres a un mundo de beneficios exclusivos diseñados solo para ti.
-            ¿Por qué deberías registrarte?</h2>
+            <p>Bienvenido a Coder Barbería, donde la elegancia se encuentra con la tecnología!<br><br>Estamos encantados de
+                que
+                estés aquí y queremos que tu experiencia sea aún más especial.
+            </p>
 
-            <div class="container-fluid">
-
-                <ol>
-                    <li>Ofertas Exclusivas: Como miembro registrado, tendrás acceso a ofertas y descuentos exclusivos en nuestros servicios y productos. Mantente al tanto de las últimas promociones y ahorra en tus cortes de pelo y productos favoritos.</li>
-                    <li>Reservas Simplificadas: Olvídate de esperar en la fila. Con tu cuenta, puedes realizar reservas fácilmente en línea y elegir el horario que mejor se adapte a tu agenda. ¡Tu tiempo es valioso, y queremos que lo disfrutes al máximo!</li>
-                    <li>Contenido Personalizado: Al registrarte, personalizamos tu experiencia en nuestro sitio web. Recibirás recomendaciones personalizadas, consejos de cuidado capilar y contenido exclusivo que se adapta a tus preferencias.</li>
-                    <li>Seguimiento de Historial: Mantén un registro de tus estilos y servicios anteriores. Esto no solo facilita la comunicación con nuestros barberos, sino que también te ayuda a recordar y recrear tus looks favoritos.</li>
-                    <li>Noticias y Eventos Exclusivos: Sé el primero en enterarte de eventos especiales, lanzamientos de nuevos productos y noticias emocionantes de Coder Barbería. ¡No te pierdas ninguna novedad!</li>
-                </ol>
-
-                <p class="lista">Regístrate ahora y únete a la comunidad Coder. Estamos aquí para brindarte una experiencia única y personalizada en cada visita. ¡Te esperamos con los brazos abiertos!</p>
+            <p>
+                Al registrarte en nuestra página web, te abres a un mundo de beneficios exclusivos diseñados solo para ti.
+                ¿Por qué deberías registrarte?
+            </p><br>
                 
-            </div>
 
-                <!-- Formulario de registro -->
+            <ol>
+                <li>Ofertas Exclusivas: Como miembro registrado, tendrás acceso a ofertas y descuentos exclusivos en
+                    nuestros servicios y productos. Mantente al tanto de las últimas promociones y ahorra en tus cortes
+                    de pelo y productos favoritos.</li>
+                <li>Reservas Simplificadas: Olvídate de esperar en la fila. Con tu cuenta, puedes realizar reservas
+                    fácilmente en línea y elegir el horario que mejor se adapte a tu agenda. ¡Tu tiempo es valioso, y
+                    queremos que lo disfrutes al máximo!</li>
+                <li>Contenido Personalizado: Al registrarte, personalizamos tu experiencia en nuestro sitio web.
+                    Recibirás recomendaciones personalizadas, consejos de cuidado capilar y contenido exclusivo que se
+                    adapta a tus preferencias.</li>
+                <li>Seguimiento de Historial: Mantén un registro de tus estilos y servicios anteriores. Esto no solo
+                    facilita la comunicación con nuestros barberos, sino que también te ayuda a recordar y recrear tus
+                    looks favoritos.</li>
+                <li>Noticias y Eventos Exclusivos: Sé el primero en enterarte de eventos especiales, lanzamientos de
+                    nuevos productos y noticias emocionantes de Coder Barbería. ¡No te pierdas ninguna novedad!</li>
+            </ol><br>
+
+            <p>Regístrate ahora y únete a la comunidad Coder. Estamos aquí para brindarte una experiencia única y
+                personalizada en cada visita. ¡Te esperamos con los brazos abiertos!</p>
+
+        </div>
+
+        <!-- Formulario de registro -->
         <div class="container-fluid">
             <div class="row justify-content-between">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <section class="formulario">
                         <h2>Formulario Registro</h2>
                         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
@@ -89,17 +104,18 @@
                         <p><a href="#">¿Ya tengo Cuenta?</a></p>
                     </section>
                 </div>
-
-
-                <div class="col-4">
+                
+                <!-- imagenes del formulario -->
+                <div class="col-lg-4 imagen img1">
                     <img class="img-fluid float-end imgForm" src="../img/barba4.jpg" alt="foto de local">
-                    <img class="img-fluid float-end imgForm2" src="../img/barber-4618697_1280-1024x682.jpg" alt="foto de local 2">
+                    <img class="img-fluid float-end imgForm2" src="../img/barber-4618697_1280-1024x682.jpg"
+                        alt="foto de local 2">
                 </div>
 
-                    <div class="col-4">
-                        <img class="img-fluid float-end imgForm" src="../img/BARBER-SHOP-1024x675.webp" alt="foto de look">
-                        <img class="img-fluid float-end imgForm2" src="../img/barba.jpg" alt="foto de local 2">
-                    </div>
+                <div class="col-lg-4 imagen img2">
+                    <img class="img-fluid float-end imgForm" src="../img/BARBER-SHOP-1024x675.webp" alt="foto de look">
+                    <img class="img-fluid float-end imgForm2" src="../img/barba.jpg" alt="foto de local 2">
+                </div>
 
 
             </div>

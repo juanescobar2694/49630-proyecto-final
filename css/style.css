@@ -72,14 +72,12 @@ footer li {
     margin-bottom: 70px;
 }
 
-.blanco {
-    color: whitesmoke;
-}
 
 /* Formulario de registro */
 
   .formulario {
     width: 500px;
+    height: auto;
     background: black;
     padding: 30px;
     margin: 10px;
@@ -87,6 +85,18 @@ footer li {
     border-radius: 4px;
     color: whitesmoke;
     box-shadow: 7px 13px 37px whitesmoke;
+  }
+
+  @media(max-width:533px) {
+    .formulario {
+      width: auto;
+    }
+  }
+
+  @media(max-width:533px) {
+    .logo {
+      width: auto;
+    }
   }
   
   .formulario h2 {
@@ -145,7 +155,7 @@ footer li {
   .imgForm2 {
     width: 500px;
     height: 400px;
-    margin-top: 70px;
+    margin-top: 96px;
     margin-right: 10px;
     box-shadow: 7px 13px 37px whitesmoke;
   }
@@ -154,6 +164,7 @@ footer li {
 
   li {
     margin-top: 30px;
+    margin-bottom: 50px;
     color: whitesmoke;
     font-size: 20px;
   }
@@ -163,7 +174,35 @@ footer li {
     font-size: 20px;
   }
 
+  .imgInfo{
+    box-shadow: 7px 13px 37px whitesmoke;
+  }
+
   .container-fluid {
     max-width: 1800px;
+}
+
+@media (max-width:700px) {
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .encabezado .imagen {
+    display: none;
+  }
+}
+
+@media (max-width:1300px) {
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .encabezado .img2 {
+    display: none;
+  }
 }
 
