@@ -18,12 +18,23 @@ h2 {
   margin-bottom: 100px;
 }
 
+
+
 body {
-    background-color: black;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  color:whitesmoke; /* Color del texto principal */
+  background-color: black; /* Color de fondo */
 }
-/* Logo de la barberia */
-.logo {
-    width: 400px;
+
+p {
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+  font-size: 15px;
 }
 /* Menu hamurguesa */
 .menuNav a {
@@ -34,9 +45,13 @@ body {
     margin-left: 20px;
 }
 
+
+
 .menuNav a:hover {
     background-color: whitesmoke;
     color: black;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
 /* Footer */
@@ -148,4 +163,7 @@ footer li {
     font-size: 20px;
   }
 
+  .container-fluid {
+    max-width: 1800px;
+}
 
