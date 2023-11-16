@@ -23,8 +23,8 @@ h2 {
 body {
   font-size: 16px;
   font-family: 'Playfair Display', serif;
-  color:whitesmoke; /* Color del texto principal */
-  background-color: black; /* Color de fondo */
+  color:whitesmoke;
+  background-color: black;
 }
 
 p {
@@ -111,7 +111,7 @@ footer li {
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid whitesmoke;
-    font-family: 'calibri';
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     color: white;
   }
@@ -204,5 +204,67 @@ footer li {
   .encabezado .img2 {
     display: none;
   }
+}
+/* Sucursales */
+ .imgLocal {
+  width: 800px;
+  margin-bottom: 20px;
+  height: 400px;
+  margin-top: 20px;
+ }
+ iframe {
+  margin-bottom: 70px;
+ }
+
+
+ /* formulario de registro */
+
+ .registrarse form{
+  
+  width: 500px;
+  height: auto;
+  background: black;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  color: whitesmoke;
+  box-shadow: 7px 13px 37px whitesmoke;
+  font-family: 'calibri';
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+
+button {
+    background-color: #1f53c5;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:whitesmoke;
+    color:black;
+}
+
+.imagen-lateral {
+  width: 750px;
+  float: right;
+  box-shadow: 7px 13px 37px whitesmoke;
 }
 

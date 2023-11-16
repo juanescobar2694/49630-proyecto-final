@@ -16,7 +16,7 @@
     <!-- HEADER BSS -->
     <header>
         <!-- MENU NAVBAR -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img class="logo" src="../img/Barbería CodeR.png" alt="Logo Barberia">
@@ -31,7 +31,7 @@
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="registrarse.html">Registrarse</a>
@@ -47,7 +47,49 @@
             </div>
         </nav>
 
-        <h1 class="text-center">TURNOS</h1>
+        <h1 class="text-center">Contacto y Reserva de Turno</h1>
+
+        <p class="parrafo">¡Bienvenido a Barbería Coder! Para reservar tu turno, por favor completa el siguiente formulario:</p>
+
+        <div class="container-fluid">
+            <img class="imagen-lateral" src="../img/barberia_06.jpg" alt="Descripción de la imagen">
+        </div>
+        
+        <div class="container-fluid">
+
+            <div class="registrarse">
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su Nombre" name="nombre" required>
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" placeholder="Ingrese su Correo" name="email" required>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Ingrese su Tefelono" name="telefono" required>
+                    
+                    <label for="servicio">Servicio:</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="corte">Corte de Cabello</option>
+                        <option value="afeitado">Afeitado</option>
+                        <option value="afeitado">Corte de Cabello y Afeitado</option>
+                        
+                    </select>
+                    
+                    <label for="fecha">Fecha y Hora:</label>
+                    <input type="datetime-local" id="fecha" name="fecha" required>
+                    
+                <button type="submit">Reservar Turno</button>
+            </form>
+            
+        </div>
+    </div>
+
+        <div class="parrafo">
+            <p>Para más información, contáctanos al siguiente número:<a href="tel:123626625">(011) 456-7890</a></p>
+            <p>O visítanos en una de nuestras <a href="sucursales.html">"SUCURSALES"</a></p>
+        </div>
+
 
         <!-- FOOTER -->
         <div class="container">
@@ -59,7 +101,7 @@
                 <li class="nav-item"><a href="turnos.html" class="nav-link px-2">Turnos</a></li>
                 <li class="nav-item"><a href="sucursales.html" class="nav-link px-2">Sucursales</a></li>
               </ul>
-              <p class="text-center">&copy; 2023 Company, Inc</p>
+              <p class="text-center">&copy; 2023 Barbería Coder, Inc</p>
             </footer>
           </div>
 
