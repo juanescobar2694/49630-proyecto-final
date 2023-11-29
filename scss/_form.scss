@@ -1,0 +1,210 @@
+/* Parrafos */
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-blanco;
+}
+
+.parrafo {
+    color: $color-blanco;
+    font-size: 25px;
+    margin-bottom: 70px;
+  }
+  
+  /* Formulario de registro */
+  
+  .formulario {
+    width: 500px;
+    height: auto;
+    background: $color-black;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 200px;
+    border-radius: 4px;
+    color: $color-blanco;
+    box-shadow: 7px 13px 37px $color-blanco;
+  
+    h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 533px) {
+    .formulario {
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 533px) {
+    .logo {
+      width: auto;
+    }
+  }
+  
+  .controls {
+    width: 100%;
+    background: $color-black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $color-blanco;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: $color-blanco;
+  }
+  
+  .formulario {
+    p {
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 40px;
+    }
+  
+    a {
+        @include anclas;
+      &:hover {
+        color: $color-azul;
+        text-decoration: underline;
+      }
+    }
+  
+    .boton {
+      width: 100%;
+      background: $color-azul;
+      border: none;
+      padding: 12px;
+      color: $color-blanco;
+      margin: 16px 0;
+      font-size: 16px;
+    }
+  }
+  
+  .imgForm {
+    width: 500px;
+    height: 400px;
+    margin-top: 200px;
+    margin-right: 10px;
+    box-shadow: 7px 13px 37px $color-blanco;
+  }
+  
+  .imgForm2 {
+    width: 500px;
+    height: 400px;
+    margin-top: 96px;
+    margin-right: 10px;
+    box-shadow: 7px 13px 37px $color-blanco;
+  }
+  
+  /* lista de beneficios */
+  
+  li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: $color-blanco;
+    font-size: 20px;
+  }
+  
+  .lista {
+    margin-top: 80px;
+    color: $color-blanco;
+    font-size: 20px;
+  }
+  
+  .imgInfo {
+    box-shadow: 7px 13px 37px $color-blanco;
+  }
+  
+  .container-fluid {
+    max-width: 1800px;
+  }
+  
+  @media (max-width: 700px) {
+    .encabezado {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+  
+      .imagen {
+        display: none;
+      }
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .encabezado {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+  
+      .img2 {
+        display: none;
+      }
+    }
+  }
+  
+  /* Sucursales */
+  
+  .imgLocal {
+    width: 800px;
+    margin-bottom: 20px;
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  iframe {
+    margin-bottom: 70px;
+  }
+  
+  /* formulario de registro */
+  
+  .registrarse form {
+    width: 500px;
+    height: auto;
+    background: $color-black;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    color: $color-blanco;
+    box-shadow: 7px 13px 37px $color-blanco;
+    font-family: 'calibri';
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  button {
+    background-color: $color-azul;
+    color: $color-blanco;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .imagen-lateral {
+    width: 750px;
+    float: right;
+    box-shadow: 7px 13px 37px $color-blanco;
+  }
+  
+  /* CARROUSEL */
+  
+  .car {
+    border-radius: 30px;
+  }
+  
