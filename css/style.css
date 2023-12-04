@@ -288,6 +288,24 @@ iframe {
   font-family: "calibri";
 }
 
+@media (min-width: 330px) and (max-width: 700px) {
+  .registrarse form {
+    width: auto;
+  height: auto;
+  background: black;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  color: whitesmoke;
+  box-shadow: 7px 13px 37px whitesmoke;
+  font-family: "calibri";
+  }
+}
+
+
+
 label {
   display: block;
   margin-bottom: 8px;
@@ -316,6 +334,12 @@ button {
   width: 750px;
   float: right;
   box-shadow: 7px 13px 37px whitesmoke;
+}
+
+@media (min-width: 330px) and (max-width: 700px) {
+  .imagen-lateral {
+  display: none;
+  }
 }
 
 /* CARROUSEL */
