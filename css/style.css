@@ -99,7 +99,7 @@ p {
   margin-bottom: 20px;
   }
 }
-@media (min-width: 330px) and (max-width: 1000px) {
+@media (min-width: 330px) and (max-width: 1500px) {
   .formulario {
     width: auto;
     height: auto;
@@ -174,6 +174,7 @@ p {
     margin-top: 200px;
     margin-right: 10px;
     box-shadow: 7px 13px 37px whitesmoke;
+    display: none;
   }
   
 }
@@ -219,26 +220,15 @@ li {
   max-width: 1800px;
 }
 
-@media (max-width: 700px) {
-  .encabezado {
-    height: auto;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .encabezado .imagen {
+@media (max-width: 1400px) {
+  .imagen {
     display: none;
   }
 }
 
-@media (max-width: 1300px) {
-  .encabezado {
-    height: auto;
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .encabezado .img2 {
+@media (max-width: 1400px) {
+  .img2 {
     display: none;
   }
 }
@@ -273,7 +263,7 @@ iframe {
   }
 }
 
-/* formulario de registro */
+/* formulario de turnos*/
 .registrarse form {
   width: 500px;
   height: auto;
@@ -288,7 +278,7 @@ iframe {
   font-family: "calibri";
 }
 
-@media (min-width: 330px) and (max-width: 700px) {
+@media (min-width: 330px) and (max-width: 1100px) {
   .registrarse form {
     width: auto;
   height: auto;
@@ -303,8 +293,6 @@ iframe {
   font-family: "calibri";
   }
 }
-
-
 
 label {
   display: block;
@@ -331,12 +319,31 @@ button {
 }
 
 .imagen-lateral {
+  margin-top: 20px;
   width: 750px;
   float: right;
   box-shadow: 7px 13px 37px whitesmoke;
 }
 
-@media (min-width: 330px) and (max-width: 700px) {
+@media (min-width: 1000px) and (max-width: 1900px) {
+  .imagen-lateral {
+  width: 600px;
+  height: 575px;
+  margin-top:30px;
+
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1900px) {
+  .imagen-lateral {
+  width: 500px;
+  height: 575px;
+  margin-top:30px;
+
+  }
+}
+
+@media (min-width: 330px) and (max-width: 1100px) {
   .imagen-lateral {
   display: none;
   }
