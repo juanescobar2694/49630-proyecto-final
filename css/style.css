@@ -163,15 +163,15 @@ p {
   width: 500px;
   height: 400px;
   margin-top: 200px;
-  margin-right: 10px;
+  margin-left: 75px;
   box-shadow: 7px 13px 37px whitesmoke;
 }
 
-@media (min-width: 330px) and (max-width: 700px){
+@media (min-width: 330px) and (max-width: 800px){
   .imgForm {
     width: 500px;
     height: 400px;
-    margin-top: 200px;
+    margin-top: 20px;
     margin-right: 10px;
     box-shadow: 7px 13px 37px whitesmoke;
     display: none;
@@ -183,9 +183,10 @@ p {
   width: 500px;
   height: 400px;
   margin-top: 96px;
-  margin-right: 10px;
+  margin-left: 75px;
   box-shadow: 7px 13px 37px whitesmoke;
 }
+
 
 /* lista de beneficios */
 li {
